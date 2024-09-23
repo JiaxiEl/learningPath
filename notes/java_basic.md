@@ -57,4 +57,44 @@
   - static method
   - No fields
   - multiple inheritance
-  - 
+
+
+## Functional Interface
+- Functional Interface
+  - a single abstract method
+  - lambda expressions
+
+
+## Design Pattern - Singleton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
