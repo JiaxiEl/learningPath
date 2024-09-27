@@ -188,9 +188,14 @@ privite final con
 
 
 - CompletableFuture
-  - 
-
-
+  - non-block execution: allows you to set up callback taht will execute once a task is complete, without blocking the main thread
+  - Task chaining: thenApply(), thenAccept(), thenRun()
+  - Composing tasks: combine the results of multiple futures using methods like thenCombine and thenCompose
+  - exception handing: handle(), exceptionally()
+  - Run tasks in parallel, run the tasks concurrently and then combine the results
+  - Creating a CompletableFuture:
+    - Manually: new CompletableFuture()
+    - Automatically: supplyAsync() or runAsync()
 
 
 
