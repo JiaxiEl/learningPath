@@ -199,6 +199,18 @@ privite final con
 
 
 
+- ForkJoin
+  - designed to take advantage of multiple processors and is used for parallelism
+  - breaking a large taks in to smaller tasks, executing them in parallel and combining the results
+
+
+- ThreadLocal:
+  - thread-local variables
+  - each thread that accesses a ThreadLocal variable gets its own independent copy of the variable.
+  - ThreadLocalMap
+    - access a TreadLocal variable, the variable looks up the corresponding value from the current thread
+
+
 
 
 
