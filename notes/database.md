@@ -96,7 +96,11 @@ ID: abc, Placce: NewYork
   - Version your API in the URL
 
 
-
+- try with resources:
+  - implement the AutoCloseable interface
+  - Or closeable
+  - Automatic Resource Management: the resource is closed when the try block exits, either normally or through an exception
+  - Multiple Resources: can declare multiple resources in the try with resources statement and separated by semicolons.
 
 
 
